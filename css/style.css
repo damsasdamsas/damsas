@@ -57,13 +57,15 @@ img{
 
 
 /* CSS Document */
-header {
+#header {
     position: fixed;
     z-index: 1;
 	width: 100%;
 	height: 72px;
-	background: darkslategrey;
 }
+
+.nav-colored { background-color:rgba(0, 0, 0, 0.50); }
+.nav-transparent { background-color:transparent;}
 
 .toggle,
 [id^=drop] {
